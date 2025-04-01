@@ -1,0 +1,12 @@
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\bin\Debug\net8.0\DataManagementLibrary.deps.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\bin\Debug\net8.0\DataManagementLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\bin\Debug\net8.0\DataManagementLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\DataManagementLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\DataManagementLibrary.AssemblyInfoInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\DataManagementLibrary.AssemblyInfo.cs
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\DataManagementLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\DataManagementLibrary.sourcelink.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\DataManagementLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\refint\DataManagementLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\DataManagementLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0\ref\DataManagementLibrary.dll
