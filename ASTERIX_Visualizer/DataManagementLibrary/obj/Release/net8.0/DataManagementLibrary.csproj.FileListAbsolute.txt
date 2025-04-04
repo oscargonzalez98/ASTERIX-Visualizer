@@ -1,0 +1,6 @@
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Release\net8.0\DataManagementLibrary.csproj.AssemblyReference.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Release\net8.0\DataManagementLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Release\net8.0\DataManagementLibrary.AssemblyInfoInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Release\net8.0\DataManagementLibrary.AssemblyInfo.cs
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Release\net8.0\DataManagementLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Release\net8.0\DataManagementLibrary.sourcelink.json

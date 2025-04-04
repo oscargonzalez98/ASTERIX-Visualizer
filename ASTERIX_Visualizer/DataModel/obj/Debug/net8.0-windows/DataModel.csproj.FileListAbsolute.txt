@@ -1,0 +1,13 @@
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\bin\Debug\net8.0-windows\DataModel.deps.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\bin\Debug\net8.0-windows\DataModel.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\bin\Debug\net8.0-windows\DataModel.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\DataModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\DataModel.AssemblyInfoInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\DataModel.AssemblyInfo.cs
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\DataModel.sourcelink.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\DataModel.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\refint\DataModel.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\DataModel.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\ref\DataModel.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Debug\net8.0-windows\DataModel.csproj.AssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\obj\Release\net8.0-windows\ApplicationView.csproj.AssemblyReference.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\obj\Release\net8.0-windows\MainWindow.g.cs
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\obj\Release\net8.0-windows\App.g.cs
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\obj\Release\net8.0-windows\ApplicationView_MarkupCompile.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\obj\Release\net8.0-windows\ApplicationView_MarkupCompile.lref

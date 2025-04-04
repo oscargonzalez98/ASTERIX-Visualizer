@@ -1,0 +1,12 @@
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\bin\Release\net8.0-windows\DataModelLibrary.deps.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\bin\Release\net8.0-windows\DataModelLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\bin\Release\net8.0-windows\DataModelLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\DataModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\DataModelLibrary.AssemblyInfoInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\DataModelLibrary.AssemblyInfo.cs
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\DataModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\DataModelLibrary.sourcelink.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\DataModelLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\refint\DataModelLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\DataModelLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModel\obj\Release\net8.0-windows\ref\DataModelLibrary.dll
