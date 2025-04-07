@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -16,8 +17,7 @@ namespace DataModel
     {
         private string Code;
         private Point2D Coordinates;
-
-        private UIElement shape;
+        private Grid shape;
 
         public Beacon(string code, Point2D coordinates)
         {
@@ -26,18 +26,27 @@ namespace DataModel
             shape = CreateShape();
         }
 
-        private UIElement CreateShape()
+        private Grid CreateShape()
         {
+            Grid panel = new Grid
+            {
+                HorizontalAlignment = HorizontalAlignment.Center
+            };
+
+            panel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            panel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+
             Polygon triangle = new Polygon
             {
                 Points = new PointCollection(new List<System.Windows.Point>
-                {
+    {
                     new System.Windows.Point(-5, 0),
                     new System.Windows.Point(5, 0),
                     new System.Windows.Point(0, -10)
-                }),
+    }),
                 Stroke = System.Windows.Media.Brushes.Red,
-                StrokeThickness = 2
+                StrokeThickness = 2,
+                HorizontalAlignment = HorizontalAlignment.Center
             };
 
             TextBlock label = new TextBlock
@@ -50,12 +59,12 @@ namespace DataModel
                 HorizontalAlignment = HorizontalAlignment.Center
             };
 
-            // Stack them
-            StackPanel panel = new StackPanel
-            {
-                Orientation = Orientation.Vertical,
-                HorizontalAlignment = HorizontalAlignment.Center
-            };
+            Grid.SetRow(triangle, 0);
+            Grid.SetRow(label, 1);
+
+            panel.Children.Add(triangle);
+            panel.Children.Add(label);
+
 
             return panel;
         }
@@ -78,6 +87,16 @@ namespace DataModel
         public void setCoordinates(Point2D coordinates)
         {
             Coordinates = coordinates;
+        }
+
+        public Grid getShape()
+        {
+            return shape;
+        }
+
+        public void setShape(Grid shape)
+        {
+            this.shape = shape;
         }
 
         public override string ToString()

@@ -16,6 +16,8 @@ using GMap.NET;
 using GMap.NET.WindowsPresentation;
 using static GMap.NET.Entity.OpenStreetMapRouteEntity;
 
+using DataModel;
+
 namespace ApplicationView;
 
 /// <summary>
@@ -29,8 +31,8 @@ public partial class MainWindow : Window
 
         string beaconsDataPath = @"C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\src\Mapas\Peninsula_Fijos.map";
 
-        IDataLoader<List<(double lat, double lon)>> beaconsDataLoader = new BeaconsDataLoader();
-        List<(double lat, double lon)> beaconsCoordinates = beaconsDataLoader.loadData(beaconsDataPath);
+        IDataLoader<List<Beacon>> beaconsDataLoader = new BeaconsDataLoader();
+        List<Beacon> beacons = beaconsDataLoader.loadData(beaconsDataPath);
 
         gmapControl.MapProvider = GMapProviders.GoogleMap;
         GMaps.Instance.Mode = AccessMode.ServerAndCache;
@@ -45,18 +47,14 @@ public partial class MainWindow : Window
         // lets the user drag the map with the left mouse button
         gmapControl.DragButton = MouseButton.Left;
 
-        foreach ((double lat, double lon) in beaconsCoordinates)
+        foreach (Beacon beacon in beacons)
         {
-            var marker = new GMapMarker(new PointLatLng(lat, lon))
-            {
-                Shape = new System.Windows.Shapes.Ellipse
-                {
-                    Width = 10,
-                    Height = 10,
-                    Stroke = System.Windows.Media.Brushes.Red,
-                    StrokeThickness = 2
-                }
-            };
+            double lat = beacon.getCoordinates().getLatitude();
+            double lon = beacon.getCoordinates().getLongitude();
+
+            var marker = new GMapMarker(new PointLatLng(lat, lon));
+            marker.Shape = beacon.getShape();
+            //marker.Offset = new Point(-20, 20); // Adjust the offset to center the marker
 
             gmapControl.Markers.Add(marker);
 

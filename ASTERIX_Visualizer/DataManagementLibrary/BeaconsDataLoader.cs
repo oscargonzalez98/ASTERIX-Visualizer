@@ -1,13 +1,14 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
+using DataModel;
 
 namespace DataManagementLibrary
 {
-    public class BeaconsDataLoader : IDataLoader<List<(double lat, double lon)>>
+    public class BeaconsDataLoader : IDataLoader<List<Beacon>>
     {
-        public List<(double lat, double lon)> loadData(string filePath)
+        public List<Beacon> loadData(string filePath)
         {
-            List<(double lat, double lon)> coordinatesList = new List<(double lat, double lon)>();
+            List<Beacon> beaconsList = new List<Beacon>();
 
             foreach (string line in File.ReadAllLines(filePath))
             {
@@ -41,11 +42,14 @@ namespace DataManagementLibrary
                         lon *= -1;
                     }
 
-                    coordinatesList.Add((lat, lon));
+                    Point2D point2D = new Point2D(lat, lon);
+                    Beacon beacon = new Beacon(code, point2D);
+
+                    beaconsList.Add(beacon);
                 }
             }
 
-            return coordinatesList;
+            return beaconsList;
         }
     }
 }
