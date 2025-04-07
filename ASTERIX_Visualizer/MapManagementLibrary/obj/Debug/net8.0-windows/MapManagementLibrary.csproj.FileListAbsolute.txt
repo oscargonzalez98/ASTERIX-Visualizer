@@ -1,0 +1,15 @@
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\bin\Debug\net8.0-windows\MapManagementLibrary.deps.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\bin\Debug\net8.0-windows\MapManagementLibrary.runtimeconfig.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\bin\Debug\net8.0-windows\MapManagementLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\bin\Debug\net8.0-windows\MapManagementLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.csproj.AssemblyReference.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.AssemblyInfoInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.AssemblyInfo.cs
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.sourcelink.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\refint\MapManagementLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.genruntimeconfig.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\ref\MapManagementLibrary.dll

@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataManagementLibrary\DataManagementLibrary.csproj" />
+    <ProjectReference Include="..\MapManagementLibrary\MapManagementLibrary.csproj" />
   </ItemGroup>
 
 </Project>

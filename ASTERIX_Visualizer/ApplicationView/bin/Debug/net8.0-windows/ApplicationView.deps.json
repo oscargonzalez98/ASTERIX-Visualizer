@@ -10,7 +10,8 @@
         "dependencies": {
           "DataManagementLibrary": "1.0.0",
           "GMap.NET.Core": "2.1.7",
-          "GMap.NET.WinPresentation": "2.1.7"
+          "GMap.NET.WinPresentation": "2.1.7",
+          "MapManagementLibrary": "1.0.0"
         },
         "runtime": {
           "ApplicationView.dll": {}
@@ -246,6 +247,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "MapManagementLibrary/1.0.0": {
+        "dependencies": {
+          "GMap.NET.WinPresentation": "2.1.7"
+        },
+        "runtime": {
+          "MapManagementLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -443,6 +455,11 @@
       "sha512": ""
     },
     "DataModelLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MapManagementLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

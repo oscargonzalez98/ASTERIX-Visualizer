@@ -467,6 +467,19 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "MapManagementLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GMap.NET.WinPresentation": "2.1.7"
+        },
+        "compile": {
+          "bin/placeholder/MapManagementLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MapManagementLibrary.dll": {}
+        }
       }
     }
   },
@@ -1377,13 +1390,19 @@
       "type": "project",
       "path": "../DataModelLibrary/DataModelLibrary.csproj",
       "msbuildProject": "../DataModelLibrary/DataModelLibrary.csproj"
+    },
+    "MapManagementLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MapManagementLibrary/MapManagementLibrary.csproj",
+      "msbuildProject": "../MapManagementLibrary/MapManagementLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "DataManagementLibrary >= 1.0.0",
       "GMap.NET.Core >= 2.1.7",
-      "GMap.NET.WinPresentation >= 2.1.7"
+      "GMap.NET.WinPresentation >= 2.1.7",
+      "MapManagementLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1420,6 +1439,9 @@
           "projectReferences": {
             "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\DataManagementLibrary.csproj": {
               "projectPath": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\DataManagementLibrary.csproj"
+            },
+            "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\MapManagementLibrary.csproj": {
+              "projectPath": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\MapManagementLibrary.csproj"
             }
           }
         }
