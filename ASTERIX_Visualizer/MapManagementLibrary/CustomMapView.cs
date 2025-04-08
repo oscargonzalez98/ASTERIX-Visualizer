@@ -7,6 +7,7 @@ using DataManagementLibrary;
 using DataModel;
 using GMap.NET.WindowsForms.Markers;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace MapManagementLibrary
 {
@@ -52,11 +53,8 @@ namespace MapManagementLibrary
                 double lat = beacon.getCoordinates().getLatitude();
                 double lon = beacon.getCoordinates().getLongitude();
 
-                // Use GMap.NET.WindowsForms.GMapMarker instead of GMap.NET.WindowsPresentation.GMapMarker
-                var marker = new GMap.NET.WindowsForms.Markers.GMarkerGoogle(
-                    new PointLatLng(lat, lon),
-                    GMarkerGoogleType.red_dot
-                );
+                var marker = new CustomMarker(new PointLatLng(lat, lon), beacon.getCode());
+                
 
                 beaconsOverlay.Markers.Add(marker);
             }
