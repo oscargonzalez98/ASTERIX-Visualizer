@@ -1,14 +1,15 @@
 ﻿<Window x:Class="ApplicationView.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ApplicationView"
-        xmlns:maps="clr-namespace:MapManagementLibrary;assembly=MapManagementLibrary"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox Name="exampleTextbox" TextWrapping="Wrap" IsReadOnly="True" AcceptsReturn="True" Margin="0,0,461,0"/>
-        <maps:CustomMapView x:Name="customMap" Margin="359,10,10,10" />
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     xmlns:local="clr-namespace:ApplicationView"
+     xmlns:maps="clr-namespace:MapManagementLibrary;assembly=MapManagementLibrary"
+     xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+     xmlns:wfh="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+     mc:Ignorable="d"
+     Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="gridHost">
+        <wfh:WindowsFormsHost Name="formsHost" HorizontalAlignment="Left" Height="200" Width="300" Margin="400,152,0,82" />
     </Grid>
 </Window>

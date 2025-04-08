@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="GMap.NET.Core" Version="2.1.7" />
+    <PackageReference Include="GMap.NET.WinForms" Version="2.1.7" />
     <PackageReference Include="GMap.NET.WinPresentation" Version="2.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataManagementLibrary\DataManagementLibrary.csproj" />
+    <ProjectReference Include="..\DataModelLibrary\DataModelLibrary.csproj" />
   </ItemGroup>
 
 </Project>

@@ -10,6 +10,7 @@
         "dependencies": {
           "DataManagementLibrary": "1.0.0",
           "GMap.NET.Core": "2.1.7",
+          "GMap.NET.WinForms": "2.1.7",
           "GMap.NET.WinPresentation": "2.1.7",
           "MapManagementLibrary": "1.0.0"
         },
@@ -47,6 +48,17 @@
           "lib/net6.0/GMap.NET.Core.dll": {
             "assemblyVersion": "2.1.6.0",
             "fileVersion": "2.1.6.0"
+          }
+        }
+      },
+      "GMap.NET.WinForms/2.1.7": {
+        "dependencies": {
+          "GMap.NET.Core": "2.1.7"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/GMap.NET.WindowsForms.dll": {
+            "assemblyVersion": "2.1.7.0",
+            "fileVersion": "2.1.7.0"
           }
         }
       },
@@ -250,6 +262,10 @@
       },
       "MapManagementLibrary/1.0.0": {
         "dependencies": {
+          "DataManagementLibrary": "1.0.0",
+          "DataModelLibrary": "1.0.0",
+          "GMap.NET.Core": "2.1.7",
+          "GMap.NET.WinForms": "2.1.7",
           "GMap.NET.WinPresentation": "2.1.7"
         },
         "runtime": {
@@ -280,6 +296,13 @@
       "sha512": "sha512-exjxXgx9pNR2eAihmvTzjEB7YWdHvTXx5O0T3ABiewPXIWcTV3MMGdjrV7NH0IOKeViUWeI4lQvqVziW6T013w==",
       "path": "gmap.net.core/2.1.7",
       "hashPath": "gmap.net.core.2.1.7.nupkg.sha512"
+    },
+    "GMap.NET.WinForms/2.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xc3t2It++kueFr6p/A8OanQ7EWSCz4udrVMew1+6El7ObKqgjhHR4j0w6gNWMehbajp8ZoR4ADZbDajytnpu3Q==",
+      "path": "gmap.net.winforms/2.1.7",
+      "hashPath": "gmap.net.winforms.2.1.7.nupkg.sha512"
     },
     "GMap.NET.WinPresentation/2.1.7": {
       "type": "package",

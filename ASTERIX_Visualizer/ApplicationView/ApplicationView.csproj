@@ -10,12 +10,19 @@
 
   <ItemGroup>
     <PackageReference Include="GMap.NET.Core" Version="2.1.7" />
+    <PackageReference Include="GMap.NET.WinForms" Version="2.1.7" />
     <PackageReference Include="GMap.NET.WinPresentation" Version="2.1.7" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DataManagementLibrary\DataManagementLibrary.csproj" />
     <ProjectReference Include="..\MapManagementLibrary\MapManagementLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WindowsFormsIntegration">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\WindowsFormsIntegration.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

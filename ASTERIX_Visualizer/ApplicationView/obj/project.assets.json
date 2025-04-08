@@ -51,6 +51,25 @@
           }
         }
       },
+      "GMap.NET.WinForms/2.1.7": {
+        "type": "package",
+        "dependencies": {
+          "GMap.NET.Core": "2.1.7"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/GMap.NET.WindowsForms.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/GMap.NET.WindowsForms.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "GMap.NET.WinPresentation/2.1.7": {
         "type": "package",
         "dependencies": {
@@ -472,6 +491,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "DataManagementLibrary": "1.0.0",
+          "DataModelLibrary": "1.0.0",
+          "GMap.NET.Core": "2.1.7",
+          "GMap.NET.WinForms": "2.1.7",
           "GMap.NET.WinPresentation": "2.1.7"
         },
         "compile": {
@@ -567,6 +590,32 @@
         "lib/netcoreapp3.1/GMap.NET.Core.runtimeconfig.json",
         "lib/netstandard2.0/GMap.NET.Core.dll",
         "lib/netstandard2.1/GMap.NET.Core.dll"
+      ]
+    },
+    "GMap.NET.WinForms/2.1.7": {
+      "sha512": "xc3t2It++kueFr6p/A8OanQ7EWSCz4udrVMew1+6El7ObKqgjhHR4j0w6gNWMehbajp8ZoR4ADZbDajytnpu3Q==",
+      "type": "package",
+      "path": "gmap.net.winforms/2.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gmap.net.winforms.2.1.7.nupkg.sha512",
+        "gmap.net.winforms.nuspec",
+        "lib/net46/GMap.NET.WindowsForms.dll",
+        "lib/net461/GMap.NET.WindowsForms.dll",
+        "lib/net462/GMap.NET.WindowsForms.dll",
+        "lib/net47/GMap.NET.WindowsForms.dll",
+        "lib/net471/GMap.NET.WindowsForms.dll",
+        "lib/net472/GMap.NET.WindowsForms.dll",
+        "lib/net48/GMap.NET.WindowsForms.dll",
+        "lib/net5.0-windows7.0/GMap.NET.WindowsForms.dll",
+        "lib/net5.0-windows7.0/GMap.NET.WindowsForms.runtimeconfig.json",
+        "lib/net6.0-windows7.0/GMap.NET.WindowsForms.dll",
+        "lib/net6.0-windows7.0/GMap.NET.WindowsForms.runtimeconfig.json",
+        "lib/netcoreapp3.0/GMap.NET.WindowsForms.dll",
+        "lib/netcoreapp3.0/GMap.NET.WindowsForms.runtimeconfig.json",
+        "lib/netcoreapp3.1/GMap.NET.WindowsForms.dll",
+        "lib/netcoreapp3.1/GMap.NET.WindowsForms.runtimeconfig.json"
       ]
     },
     "GMap.NET.WinPresentation/2.1.7": {
@@ -1401,6 +1450,7 @@
     "net8.0-windows7.0": [
       "DataManagementLibrary >= 1.0.0",
       "GMap.NET.Core >= 2.1.7",
+      "GMap.NET.WinForms >= 2.1.7",
       "GMap.NET.WinPresentation >= 2.1.7",
       "MapManagementLibrary >= 1.0.0"
     ]
@@ -1463,6 +1513,10 @@
         "targetAlias": "net8.0-windows",
         "dependencies": {
           "GMap.NET.Core": {
+            "target": "Package",
+            "version": "[2.1.7, )"
+          },
+          "GMap.NET.WinForms": {
             "target": "Package",
             "version": "[2.1.7, )"
           },

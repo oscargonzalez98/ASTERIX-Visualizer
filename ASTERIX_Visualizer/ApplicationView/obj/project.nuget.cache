@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KvsnwW3/7Jo=",
+  "dgSpecHash": "hMgTE0/azFU=",
   "success": true,
   "projectFilePath": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\ApplicationView.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oscar\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\oscar\\.nuget\\packages\\gmap.net.core\\2.1.7\\gmap.net.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\gmap.net.winforms\\2.1.7\\gmap.net.winforms.2.1.7.nupkg.sha512",
     "C:\\Users\\oscar\\.nuget\\packages\\gmap.net.winpresentation\\2.1.7\\gmap.net.winpresentation.2.1.7.nupkg.sha512",
     "C:\\Users\\oscar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\oscar\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
