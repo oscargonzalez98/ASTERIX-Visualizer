@@ -34,6 +34,13 @@ public partial class MainWindow : Window
 
         CustomMapView customMap = new CustomMapView();
 
+        // Wrap CustomMapView in a WindowsFormsHost to make it compatible with UIElement
+        formsHost = new WindowsFormsHost();
+        formsHost.Child = customMap;
+
+        // Set the WindowsFormsHost as the content of the Grid
+        this.gridHost.Children.Add(formsHost);
+
 
     }
 
