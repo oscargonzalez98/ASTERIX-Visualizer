@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "GeoUtilsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GeoUtilsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeoUtilsLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GeoUtilsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GeoUtilsLibrary/GeoUtilsLibrary.csproj",
+      "msbuildProject": "../GeoUtilsLibrary/GeoUtilsLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "GeoUtilsLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\oscar\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\GeoUtilsLibrary\\GeoUtilsLibrary.csproj": {
+              "projectPath": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\GeoUtilsLibrary\\GeoUtilsLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

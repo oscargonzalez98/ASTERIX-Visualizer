@@ -45,3 +45,5 @@ C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\Appli
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\bin\Debug\net8.0-windows\MapManagementLibrary.dll
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\bin\Debug\net8.0-windows\MapManagementLibrary.pdb
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\bin\Debug\net8.0-windows\GMap.NET.WindowsForms.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\bin\Debug\net8.0-windows\GeoUtilsLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\ApplicationView\bin\Debug\net8.0-windows\GeoUtilsLibrary.pdb

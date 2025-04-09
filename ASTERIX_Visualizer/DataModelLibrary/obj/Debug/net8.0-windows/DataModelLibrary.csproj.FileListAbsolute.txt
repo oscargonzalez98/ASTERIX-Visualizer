@@ -10,3 +10,4 @@ C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataM
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\obj\Debug\net8.0-windows\refint\DataModelLibrary.dll
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\obj\Debug\net8.0-windows\DataModelLibrary.pdb
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\obj\Debug\net8.0-windows\ref\DataModelLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\obj\Debug\net8.0-windows\DataModelLibrary.csproj.AssemblyReference.cache

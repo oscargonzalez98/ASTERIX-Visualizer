@@ -43,9 +43,4 @@ public partial class MainWindow : Window
 
 
     }
-
-    private void exampleTextbox_TextChanged(object sender, TextChangedEventArgs e)
-    {
-
-    }
 }

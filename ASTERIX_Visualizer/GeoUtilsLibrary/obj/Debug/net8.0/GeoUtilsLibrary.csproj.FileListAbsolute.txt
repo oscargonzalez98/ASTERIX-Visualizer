@@ -1,0 +1,12 @@
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\bin\Debug\net8.0\GeoUtilsLibrary.deps.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\bin\Debug\net8.0\GeoUtilsLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\bin\Debug\net8.0\GeoUtilsLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\GeoUtilsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\GeoUtilsLibrary.AssemblyInfoInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\GeoUtilsLibrary.AssemblyInfo.cs
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\GeoUtilsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\GeoUtilsLibrary.sourcelink.json
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\GeoUtilsLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\refint\GeoUtilsLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\GeoUtilsLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\GeoUtilsLibrary\obj\Debug\net8.0\ref\GeoUtilsLibrary.dll

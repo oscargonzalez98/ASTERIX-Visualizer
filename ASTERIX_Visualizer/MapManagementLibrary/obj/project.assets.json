@@ -477,6 +477,9 @@
       "DataModelLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GeoUtilsLibrary": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DataModelLibrary.dll": {}
         },
@@ -486,6 +489,16 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "GeoUtilsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GeoUtilsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeoUtilsLibrary.dll": {}
+        }
       }
     }
   },
@@ -1422,6 +1435,11 @@
       "type": "project",
       "path": "../DataModelLibrary/DataModelLibrary.csproj",
       "msbuildProject": "../DataModelLibrary/DataModelLibrary.csproj"
+    },
+    "GeoUtilsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GeoUtilsLibrary/GeoUtilsLibrary.csproj",
+      "msbuildProject": "../GeoUtilsLibrary/GeoUtilsLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
