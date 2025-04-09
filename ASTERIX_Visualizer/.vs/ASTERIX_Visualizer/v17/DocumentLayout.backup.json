@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{880C2F12-B1BD-465B-AC5C-62B2FDD39AD1}|MapManagementLibrary\\MapManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\mapmanagementlibrary\\custommarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{880C2F12-B1BD-465B-AC5C-62B2FDD39AD1}|MapManagementLibrary\\MapManagementLibrary.csproj|solutionrelative:mapmanagementlibrary\\custommarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Peninsula_Fijos.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Mapas\\Peninsula_Fijos.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{880C2F12-B1BD-465B-AC5C-62B2FDD39AD1}|MapManagementLibrary\\MapManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\mapmanagementlibrary\\custommapview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880C2F12-B1BD-465B-AC5C-62B2FDD39AD1}|MapManagementLibrary\\MapManagementLibrary.csproj|solutionrelative:mapmanagementlibrary\\custommapview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\applicationview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|solutionrelative:applicationview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamanagementlibrary\\beaconsdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|solutionrelative:datamanagementlibrary\\beaconsdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamanagementlibrary\\airwaysdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|solutionrelative:datamanagementlibrary\\airwaysdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Peninsula_Aerovias.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Mapas\\Peninsula_Aerovias.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\applicationview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|solutionrelative:applicationview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamanagementlibrary\\airportzonesdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|solutionrelative:datamanagementlibrary\\airportzonesdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Aeropuerto_Barcelona.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Mapas\\Aeropuerto_Barcelona.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\applicationview\\applicationview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|solutionrelative:applicationview\\applicationview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\applicationview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|solutionrelative:applicationview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2646080-D688-4DD7-BFF6-22DA47AB0D68}|DataModelLibrary\\DataModelLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamodellibrary\\beacon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,126 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomMarker.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\CustomMarker.cs",
-              "RelativeDocumentMoniker": "MapManagementLibrary\\CustomMarker.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\CustomMarker.cs",
-              "RelativeToolTip": "MapManagementLibrary\\CustomMarker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:51:40.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Peninsula_Fijos.map",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Peninsula_Fijos.map",
-              "RelativeDocumentMoniker": "src\\Mapas\\Peninsula_Fijos.map",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Peninsula_Fijos.map",
-              "RelativeToolTip": "src\\Mapas\\Peninsula_Fijos.map",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-09T08:48:59.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Peninsula_Aerovias.map",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Peninsula_Aerovias.map",
-              "RelativeDocumentMoniker": "src\\Mapas\\Peninsula_Aerovias.map",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Peninsula_Aerovias.map",
-              "RelativeToolTip": "src\\Mapas\\Peninsula_Aerovias.map",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-08T14:19:41.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AirwaysDataLoader.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\AirwaysDataLoader.cs",
-              "RelativeDocumentMoniker": "DataManagementLibrary\\AirwaysDataLoader.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\AirwaysDataLoader.cs",
-              "RelativeToolTip": "DataManagementLibrary\\AirwaysDataLoader.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAmwDgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:03:19.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AirportZonesDataLoader.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\AirportZonesDataLoader.cs",
+              "RelativeDocumentMoniker": "DataManagementLibrary\\AirportZonesDataLoader.cs",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\AirportZonesDataLoader.cs",
+              "RelativeToolTip": "DataManagementLibrary\\AirportZonesDataLoader.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T09:05:40.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CustomMapView.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\CustomMapView.cs",
               "RelativeDocumentMoniker": "MapManagementLibrary\\CustomMapView.cs",
               "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\CustomMapView.cs",
               "RelativeToolTip": "MapManagementLibrary\\CustomMapView.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwGUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T15:09:40.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ApplicationView\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ApplicationView\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwBoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T13:17:14.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Beacon.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\Beacon.cs",
-              "RelativeDocumentMoniker": "DataModelLibrary\\Beacon.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\Beacon.cs",
-              "RelativeToolTip": "DataModelLibrary\\Beacon.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAkwF0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T11:54:52.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationView.csproj",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\ApplicationView.csproj",
-              "RelativeDocumentMoniker": "ApplicationView\\ApplicationView.csproj",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\ApplicationView.csproj",
-              "RelativeToolTip": "ApplicationView\\ApplicationView.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-02T08:14:47.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BeaconsDataLoader.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\BeaconsDataLoader.cs",
-              "RelativeDocumentMoniker": "DataManagementLibrary\\BeaconsDataLoader.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\BeaconsDataLoader.cs",
-              "RelativeToolTip": "DataManagementLibrary\\BeaconsDataLoader.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T12:07:17.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ApplicationView\\MainWindow.xaml",
@@ -185,7 +84,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "Aeropuerto_Barcelona.map",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Aeropuerto_Barcelona.map",
+              "RelativeDocumentMoniker": "src\\Mapas\\Aeropuerto_Barcelona.map",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\src\\Mapas\\Aeropuerto_Barcelona.map",
+              "RelativeToolTip": "src\\Mapas\\Aeropuerto_Barcelona.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-09T09:08:08.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ApplicationView\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ApplicationView\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:17:14.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Beacon.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\Beacon.cs",
+              "RelativeDocumentMoniker": "DataModelLibrary\\Beacon.cs",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\Beacon.cs",
+              "RelativeToolTip": "DataModelLibrary\\Beacon.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwF0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T11:54:52.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationView.csproj",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\ApplicationView.csproj",
+              "RelativeDocumentMoniker": "ApplicationView\\ApplicationView.csproj",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\ApplicationView.csproj",
+              "RelativeToolTip": "ApplicationView\\ApplicationView.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T08:14:47.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Point2D.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\Point2D.cs",
               "RelativeDocumentMoniker": "DataModelLibrary\\Point2D.cs",

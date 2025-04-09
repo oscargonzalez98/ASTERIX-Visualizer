@@ -75,19 +75,6 @@ namespace DataManagementLibrary
                     currentCount++;
                 }
             }
-
-            foreach(List<Point2D> airway in result)
-            {
-                if (airway.Count != expectedCount)
-                {
-                    Debug.WriteLine("Polyline loaded with " + airway.Count + " points.");
-                    foreach (Point2D point in airway)
-                    {
-                        Debug.WriteLine(point.ToString());
-                    }
-                }
-            }
-
             return result;
         }
     }
