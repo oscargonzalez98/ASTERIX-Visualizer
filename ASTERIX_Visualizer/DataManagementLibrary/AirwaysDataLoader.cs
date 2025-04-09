@@ -6,115 +6,89 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
+using System.Diagnostics;
+
+
 namespace DataManagementLibrary
 {
-    class AirwaysDataLoader
+    public class AirwaysDataLoader : IDataLoader<List<List<Point2D>>>
     {
-        public class BeaconsDataLoader : IDataLoader<List<List<double>>>
+        public List<List<Point2D>> loadData(string filePath)
         {
-            public List<List<double>> loadData(string filePath)
+            var result = new List<List<Point2D>>();
+            var lines = File.ReadAllLines(filePath);
+
+            List<Point2D> currentPolyline = null;
+            int expectedCount = 0;
+            int currentCount = 0;
+
+            foreach (var line in lines)
             {
-                List<List<double>> airwaysList = new List<List<double>>(); // Initialize the list of airways
+                var trimmedLine = line.Trim();
 
-
-                string[] lines = File.ReadAllLines(filePath);
-                for(int i = 0; i < lines.Length; i++)
+                if (trimmedLine.StartsWith("Polilinea"))
                 {
-                    string line = lines[i];
-
-                    string[] parts = Regex.Split(line.Trim(), @"\s+");
-
-
-
-                    /*
-                    if (parts.Length == 2 && parts[0] == "Polilinea")
+                    if (currentPolyline != null && currentPolyline.Count != expectedCount)
                     {
-                        i++;
-
-                        List<double> airway = new List<double>();
-
-
-                        while (i < lines.Length && parts[0] != "Polilinea")
-                        {
-
-                            line = lines[i];
-                            string[] parts = Regex.Split(line.Trim(), @"\s+");
-
-
-                            string coordinates = parts[1];
-                            double lat_degrees = Convert.ToDouble(coordinates.Substring(0, 2));
-                            double lat_minutes = Convert.ToDouble(coordinates.Substring(2, 2));
-                            double lat_seconds = Convert.ToDouble(coordinates.Substring(4, 2));
-                            string lat_dir = coordinates.Substring(6, 1);
-                            double lon_degrees = Convert.ToDouble(coordinates.Substring(7, 3));
-                            double lon_minutes = Convert.ToDouble(coordinates.Substring(10, 2));
-                            double lon_seconds = Convert.ToDouble(coordinates.Substring(12, 2));
-                            string lon_dir = coordinates.Substring(14, 1);
-                            double lat = lat_degrees + (lat_minutes / 60) + (lat_seconds / 3600);
-                            double lon = lon_degrees + (lon_minutes / 60) + (lon_seconds / 3600);
-                            if (lat_dir == "W")
-                            {
-                                lat *= -1;
-                            }
-                            if (lon_dir == "S")
-                            {
-                                lon *= -1;
-                            }
-                            airway.Add(lat);
-                            airway.Add(lon);
-                            i++;
-                        }
-
-
+                        Debug.WriteLine("Warning: Expected " + expectedCount + " points, but found " + currentPolyline.Count);
                     }
-                    */
+
+                    // Start a new polyline
+                    var match = Regex.Match(trimmedLine, @"Polilinea\s+(\d+)");
+                    if (match.Success)
+                    {
+                        expectedCount = int.Parse(match.Groups[1].Value);
+                        currentPolyline = new List<Point2D>();
+                        result.Add(currentPolyline);
+
+                        currentCount = 0;
+                    }
                 }
+                else if (currentPolyline != null)
+                {
+                    double lat_degrees = Convert.ToDouble(trimmedLine.Substring(0, 2));
+                    double lat_minutes = Convert.ToDouble(trimmedLine.Substring(2, 2));
+                    double lat_seconds = Convert.ToDouble(trimmedLine.Substring(4, 2));
+                    string lat_dir = trimmedLine.Substring(6, 1);
 
-                    /*
-                    List<Beacon> beaconsList = new List<Beacon>();
+                    double lon_degrees = Convert.ToDouble(trimmedLine.Substring(7, 3));
+                    double lon_minutes = Convert.ToDouble(trimmedLine.Substring(10, 2));
+                    double lon_seconds = Convert.ToDouble(trimmedLine.Substring(12, 2));
+                    string lon_dir = trimmedLine.Substring(14, 1);
 
-                    foreach (string line in File.ReadAllLines(filePath))
+                    double lat = lat_degrees + (lat_minutes / 60) + (lat_seconds / 3600);
+                    double lon = lon_degrees + (lon_minutes / 60) + (lon_seconds / 3600);
+
+                    if (lat_dir == "W")
                     {
-                        string[] parts = Regex.Split(line.Trim(), @"\s+");
-
-                        if (parts.Length == 3 && parts[0] == "Texto")
-                        {
-                            string coordinates = parts[1];
-                            string code = parts[2];
-
-                            double lat_degrees = Convert.ToDouble(coordinates.Substring(0, 2));
-                            double lat_minutes = Convert.ToDouble(coordinates.Substring(2, 2));
-                            double lat_seconds = Convert.ToDouble(coordinates.Substring(4, 2));
-                            string lat_dir = coordinates.Substring(6, 1);
-
-                            double lon_degrees = Convert.ToDouble(coordinates.Substring(7, 3));
-                            double lon_minutes = Convert.ToDouble(coordinates.Substring(10, 2));
-                            double lon_seconds = Convert.ToDouble(coordinates.Substring(12, 2));
-                            string lon_dir = coordinates.Substring(14, 1);
-
-                            double lat = lat_degrees + (lat_minutes / 60) + (lat_seconds / 3600);
-                            double lon = lon_degrees + (lon_minutes / 60) + (lon_seconds / 3600);
-
-                            if (lat_dir == "W")
-                            {
-                                lat *= -1;
-                            }
-
-                            if (lon_dir == "S")
-                            {
-                                lon *= -1;
-                            }
-
-                            Point2D point2D = new Point2D(lat, lon);
-                            Beacon beacon = new Beacon(code, point2D);
-
-                            beaconsList.Add(beacon);
-                        }
+                        lat *= -1;
                     }
-                    */
 
-                    return new List<List<double>>();
+                    if (lon_dir == "S")
+                    {
+                        lon *= -1;
+                    }
+
+                    Point2D point2D = new Point2D(lat, lon);
+                    currentPolyline.Add(point2D);
+
+                    currentCount++;
+                }
             }
+
+            foreach(List<Point2D> airway in result)
+            {
+                if (airway.Count != expectedCount)
+                {
+                    Debug.WriteLine("Polyline loaded with " + airway.Count + " points.");
+                    foreach (Point2D point in airway)
+                    {
+                        Debug.WriteLine(point.ToString());
+                    }
+                }
+            }
+
+            return result;
         }
     }
 }

@@ -18,3 +18,5 @@ C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapMa
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\bin\Debug\net8.0-windows\DataManagementLibrary.pdb
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\bin\Debug\net8.0-windows\DataModelLibrary.pdb
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManag.2ED05222.Up2Date
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.CustomMapView.resources
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\MapManagementLibrary\obj\Debug\net8.0-windows\MapManagementLibrary.csproj.GenerateResource.cache

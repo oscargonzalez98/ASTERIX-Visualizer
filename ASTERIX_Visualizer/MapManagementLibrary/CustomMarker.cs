@@ -12,7 +12,8 @@ namespace MapManagementLibrary
     public class CustomMarker : GMapMarker
     {
         public Brush FillBrush = Brushes.Red;
-        public Pen BorderPen = Pens.Black;
+        //public Brush FillBrush = new SolidBrush(Color.FromArgb(10, 100, 100, 255));
+        public Pen BorderPen = Pens.Transparent;
         public string Label { get; set; }
         public Font LabelFont { get; set; } = new Font("Arial", 10, FontStyle.Regular);
         public Brush LabelBrush { get; set; } = Brushes.Black;
