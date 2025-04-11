@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="wp7412461-aesthetic-and-cute-wallpapers.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="GMap.NET.Core" Version="2.1.7" />
     <PackageReference Include="GMap.NET.WinForms" Version="2.1.7" />
     <PackageReference Include="GMap.NET.WinPresentation" Version="2.1.7" />
@@ -16,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataManagementLibrary\DataManagementLibrary.csproj" />
+    <ProjectReference Include="..\DataModelLibrary\DataModelLibrary.csproj" />
     <ProjectReference Include="..\MapManagementLibrary\MapManagementLibrary.csproj" />
   </ItemGroup>
 
@@ -23,6 +28,10 @@
     <Reference Include="WindowsFormsIntegration">
       <HintPath>..\..\..\..\..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\WindowsFormsIntegration.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="wp7412461-aesthetic-and-cute-wallpapers.jpg" />
   </ItemGroup>
 
 </Project>

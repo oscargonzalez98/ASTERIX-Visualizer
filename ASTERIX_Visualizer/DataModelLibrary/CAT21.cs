@@ -8,7 +8,7 @@ using MultiCAT6.Utils;
 
 namespace DataModelLibrary
 {
-    public class CAT21
+    public class CAT21 : IMessage
     {
         // Centro de coordenadas SMR
         double LatSMR = 41 + (17.0 / 60.0) + (44.226 / 3600);
@@ -269,6 +269,8 @@ namespace DataModelLibrary
         public double ROA = -1;
         public double ARA = -1;
         public double SCC = -1;
+
+
 
         public CAT21(string[] packet)
         {
@@ -3055,6 +3057,11 @@ namespace DataModelLibrary
 
             // Calculamos coordenadas Stereograficas
             coordStereographic = GeoUtils1.change_system_cartesian2stereographic(coordSystemCartesian);
+        }
+
+        ParsedMessage IMessage.parseData(IMessage message)
+        {
+            return new ParsedMessage(this);
         }
     }
 }

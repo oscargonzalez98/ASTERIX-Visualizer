@@ -216,8 +216,19 @@
         }
       },
       "DataModelLibrary/1.0.0": {
+        "dependencies": {
+          "GeoUtilsLibrary": "1.0.0"
+        },
         "runtime": {
           "DataModelLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GeoUtilsLibrary/1.0.0": {
+        "runtime": {
+          "GeoUtilsLibrary.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -407,6 +418,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "DataModelLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeoUtilsLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

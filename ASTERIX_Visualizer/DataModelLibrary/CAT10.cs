@@ -8,10 +8,11 @@ using System.Text.RegularExpressions;
 using MultiCAT6.Utils;
 using DotNetMatrix;
 using System.Runtime;
+using System.Runtime.CompilerServices;
 
 namespace DataModelLibrary
 {
-    public class CAT10
+    public class CAT10 : IMessage
     {
         // Centro de coordenadas SMR
         double LatSMR = 41 + (17.0 / 60.0) + (44.226 / 3600);
@@ -1438,6 +1439,18 @@ namespace DataModelLibrary
                 // Calculamos Coordenadas Stereographic
                 coordStereographic = GeoUtils1.change_system_cartesian2stereographic(coordSystemCartesian);
             }
+        }
+
+        public IEnumerable<string> GetAvailableIds()
+        {
+            if (!string.IsNullOrEmpty(TargetAdress)) yield return TargetAdress;
+            if (!string.IsNullOrEmpty(TargetIdentification)) yield return TargetIdentification;
+            //if (!string.IsNullOrEmpty(Registration)) yield return Registration;
+        }
+
+        ParsedMessage IMessage.parseData(IMessage message)
+        {
+            return new ParsedMessage(this);
         }
     }
 }

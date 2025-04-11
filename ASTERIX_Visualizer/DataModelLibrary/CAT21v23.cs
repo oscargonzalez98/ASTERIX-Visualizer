@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataModelLibrary
 {
-    public class CAT21v23
+    public class CAT21v23  : IMessage
     {
         int i = 0;
         public string[] paquete;
@@ -1182,6 +1182,11 @@ namespace DataModelLibrary
                 Calculate_FinalStateSelectedAltitude(FinalStateSelectedAltitude);
 
             }// 25 I021/148 Final State Selected Altitude
+        }
+
+        ParsedMessage IMessage.parseData(IMessage message)
+        {
+            throw new NotImplementedException();
         }
     }
 }

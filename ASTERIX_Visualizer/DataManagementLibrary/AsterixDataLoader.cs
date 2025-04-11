@@ -1,69 +1,25 @@
 ﻿using DataModel;
 using DataModelLibrary;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace DataManagementLibrary
 {
     public class AsterixDataLoader : IDataLoader<List<string[]>>
     {
-        string filePath = "";
-        List<CAT10> listaCAT10 = new List<CAT10>();
-        List<CAT20> listaCAT20 = new List<CAT20>();
-        List<CAT21> listaCAT21 = new List<CAT21>();
-        List<CAT21v23> listaCAT21v23 = new List<CAT21v23>();
 
-        int SAC = 0;
-        int SIC = 0;
-
-        public AsterixDataLoader(string filePath)
-        {
-            this.filePath = filePath;   
-        }
-
-        public List<CAT10> getListCAT10()
-        {
-            return listaCAT10;
-        }
-
-        public List<CAT20> GetListCAT20()
-        {
-            return listaCAT20;
-        }
-
-        public List<CAT21> GetListCAT21()
-        {
-            return listaCAT21;
-        }
-
-        public List<CAT21v23> GetListCAT21v23()
-        {
-            return listaCAT21v23;
-        }
-
-        public string AddZeros(string octeto)
-        {
-            while (octeto.Length < 8)
-            {
-                octeto = octeto.Insert(0, "0");
-            }
-            return octeto;
-        }
-
-        public void Calculate_DataSourceIdentification(string paquete)
-        {
-            string string1 = paquete.Substring(0, 8);
-            string string2 = paquete.Substring(8, 8);
-
-            SAC = Convert.ToInt32(string1, 2);
-            SIC = Convert.ToInt32(string2, 2);
+        public AsterixDataLoader()
+        { 
         }
         
-        public List<string[]> loadData(string path)
+        public List<string[]> loadData(string filePath)
         {
 
             byte[] fileBytes = File.ReadAllBytes(filePath);

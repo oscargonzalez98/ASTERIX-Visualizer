@@ -11,6 +11,7 @@ using System.Xml.Linq;
 using GMap.NET.WindowsForms;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using DataModelLibrary;
 
 namespace MapManagementLibrary
 {
@@ -24,9 +25,9 @@ namespace MapManagementLibrary
         {
             // Custom initialization or default settings
             CustomGMapControl_LoadMap();
+            CustomGMapControl_LoadAirportZones();
             CustomGMapControl_LoadBeacons();
             CustomGMapControl_LoadAirways();
-            CustomGMapControl_LoadAirportZones();
 
             this.Refresh();
         }
@@ -63,7 +64,7 @@ namespace MapManagementLibrary
                 double lon = beacon.getCoordinates().getLongitude();
 
                 var marker = new CustomMarker(new PointLatLng(lat, lon), beacon.getCode());
-                
+
                 beaconsOverlay.Markers.Add(marker);
             }
 

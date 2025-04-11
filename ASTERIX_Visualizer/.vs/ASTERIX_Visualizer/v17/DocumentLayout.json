@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\applicationview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|solutionrelative:applicationview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\applicationview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|solutionrelative:applicationview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2679EFE7-BBA7-4559-8F3B-C38E60FE3296}|GeoUtilsLibrary\\GeoUtilsLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\geoutilslibrary\\geoutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2679EFE7-BBA7-4559-8F3B-C38E60FE3296}|GeoUtilsLibrary\\GeoUtilsLibrary.csproj|solutionrelative:geoutilslibrary\\geoutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamanagementlibrary\\beaconsdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|solutionrelative:datamanagementlibrary\\beaconsdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamanagementlibrary\\asterixdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|solutionrelative:datamanagementlibrary\\asterixdataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{880C2F12-B1BD-465B-AC5C-62B2FDD39AD1}|MapManagementLibrary\\MapManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\mapmanagementlibrary\\custommapview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880C2F12-B1BD-465B-AC5C-62B2FDD39AD1}|MapManagementLibrary\\MapManagementLibrary.csproj|solutionrelative:mapmanagementlibrary\\custommapview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamanagementlibrary\\asterixdataprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA850C2E-14A0-4EEB-87F9-EAE5F6C3ECAD}|DataManagementLibrary\\DataManagementLibrary.csproj|solutionrelative:datamanagementlibrary\\asterixdataprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2646080-D688-4DD7-BFF6-22DA47AB0D68}|DataModelLibrary\\DataModelLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamodellibrary\\processedasterixdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2646080-D688-4DD7-BFF6-22DA47AB0D68}|DataModelLibrary\\DataModelLibrary.csproj|solutionrelative:datamodellibrary\\processedasterixdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\applicationview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83EE6234-E10B-4D5C-97E6-BA006F5241D7}|ApplicationView\\ApplicationView.csproj|solutionrelative:applicationview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2646080-D688-4DD7-BFF6-22DA47AB0D68}|DataModelLibrary\\DataModelLibrary.csproj|c:\\users\\oscar\\documents\\c# projects\\asterix-visualizer\\asterix_visualizer\\datamodellibrary\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2646080-D688-4DD7-BFF6-22DA47AB0D68}|DataModelLibrary\\DataModelLibrary.csproj|solutionrelative:datamodellibrary\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,63 +34,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BeaconsDataLoader.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\BeaconsDataLoader.cs",
-              "RelativeDocumentMoniker": "DataManagementLibrary\\BeaconsDataLoader.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\BeaconsDataLoader.cs",
-              "RelativeToolTip": "DataManagementLibrary\\BeaconsDataLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IMessage.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\IMessage.cs",
+              "RelativeDocumentMoniker": "DataModelLibrary\\IMessage.cs",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\IMessage.cs",
+              "RelativeToolTip": "DataModelLibrary\\IMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:15:17.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T12:22:30.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GeoUtils.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\GeoUtilsLibrary\\GeoUtils.cs",
-              "RelativeDocumentMoniker": "GeoUtilsLibrary\\GeoUtils.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\GeoUtilsLibrary\\GeoUtils.cs",
-              "RelativeToolTip": "GeoUtilsLibrary\\GeoUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProcessedAsterixData.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\ProcessedAsterixData.cs",
+              "RelativeDocumentMoniker": "DataModelLibrary\\ProcessedAsterixData.cs",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataModelLibrary\\ProcessedAsterixData.cs",
+              "RelativeToolTip": "DataModelLibrary\\ProcessedAsterixData.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:14:09.822Z",
+              "WhenOpened": "2025-04-11T16:31:18.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AsterixDataLoader.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\AsterixDataLoader.cs",
-              "RelativeDocumentMoniker": "DataManagementLibrary\\AsterixDataLoader.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\AsterixDataLoader.cs",
-              "RelativeToolTip": "DataManagementLibrary\\AsterixDataLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T12:49:34.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomMapView.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\CustomMapView.cs",
-              "RelativeDocumentMoniker": "MapManagementLibrary\\CustomMapView.cs",
-              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\CustomMapView.cs",
-              "RelativeToolTip": "MapManagementLibrary\\CustomMapView.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T15:09:40.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ApplicationView\\MainWindow.xaml",
@@ -102,13 +75,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AsterixDataProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\AsterixDataProcessor.cs",
+              "RelativeDocumentMoniker": "DataManagementLibrary\\AsterixDataProcessor.cs",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\DataManagementLibrary\\AsterixDataProcessor.cs",
+              "RelativeToolTip": "DataManagementLibrary\\AsterixDataProcessor.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wBoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T12:19:49.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CustomMapView.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\CustomMapView.cs",
+              "RelativeDocumentMoniker": "MapManagementLibrary\\CustomMapView.cs",
+              "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\MapManagementLibrary\\CustomMapView.cs",
+              "RelativeToolTip": "MapManagementLibrary\\CustomMapView.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T15:09:40.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ApplicationView\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\oscar\\Documents\\C# Projects\\ASTERIX-Visualizer\\ASTERIX_Visualizer\\ApplicationView\\MainWindow.xaml.cs",
               "RelativeToolTip": "ApplicationView\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwGIAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T13:17:14.387Z",
               "EditorCaption": ""

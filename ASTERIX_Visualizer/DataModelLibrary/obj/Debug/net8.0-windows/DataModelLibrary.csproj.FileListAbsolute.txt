@@ -11,3 +11,6 @@ C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataM
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\obj\Debug\net8.0-windows\DataModelLibrary.pdb
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\obj\Debug\net8.0-windows\ref\DataModelLibrary.dll
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\obj\Debug\net8.0-windows\DataModelLibrary.csproj.AssemblyReference.cache
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\bin\Debug\net8.0-windows\GeoUtilsLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\bin\Debug\net8.0-windows\GeoUtilsLibrary.pdb
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataModelLibrary\obj\Debug\net8.0-windows\DataMode.936433CE.Up2Date

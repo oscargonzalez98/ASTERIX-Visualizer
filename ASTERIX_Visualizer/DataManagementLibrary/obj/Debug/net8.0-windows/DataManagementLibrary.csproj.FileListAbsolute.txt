@@ -16,3 +16,5 @@ C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataM
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0-windows\DataManagementLibrary.pdb
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0-windows\DataManagementLibrary.genruntimeconfig.cache
 C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\obj\Debug\net8.0-windows\ref\DataManagementLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\bin\Debug\net8.0-windows\GeoUtilsLibrary.dll
+C:\Users\oscar\Documents\C# Projects\ASTERIX-Visualizer\ASTERIX_Visualizer\DataManagementLibrary\bin\Debug\net8.0-windows\GeoUtilsLibrary.pdb

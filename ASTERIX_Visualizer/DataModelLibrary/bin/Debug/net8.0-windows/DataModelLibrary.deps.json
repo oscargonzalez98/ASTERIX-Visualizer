@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "DataModelLibrary/1.0.0": {
+        "dependencies": {
+          "GeoUtilsLibrary": "1.0.0"
+        },
         "runtime": {
           "DataModelLibrary.dll": {}
+        }
+      },
+      "GeoUtilsLibrary/1.0.0": {
+        "runtime": {
+          "GeoUtilsLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "DataModelLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeoUtilsLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
