@@ -19,6 +19,7 @@ namespace DataManagementLibrary
         ConcurrentBag<ParsedMessage> allSMR = new ConcurrentBag<ParsedMessage>();
         ConcurrentBag<ParsedMessage> allADSB_MLAT = new ConcurrentBag<ParsedMessage>();
         ConcurrentDictionary<double, string> correlatedTracks = new ConcurrentDictionary<double, string>();
+        //ConcurrentDictionary<string, List<ParsedMessage>> fusedAircraftTracks;
 
         public AsterixDataProcessor() { }
 

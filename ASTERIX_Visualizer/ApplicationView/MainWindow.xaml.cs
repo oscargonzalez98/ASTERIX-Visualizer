@@ -26,6 +26,7 @@ using GMap.NET.WindowsForms.Markers;
 using DataModelLibrary;
 using System.Diagnostics.Metrics;
 using System.Collections.Concurrent;
+using System.Drawing;
 
 namespace ApplicationView;
 /// <summary>
@@ -87,42 +88,33 @@ public partial class MainWindow : Window
             {
                 if (message != null)
                 {
-                    double lat = message.getLat();
-                    double lon = message.getLon();
-
-                    // Create a marker for the message
-                    var marker = new GMarkerGoogle(new PointLatLng(lat, lon), GMarkerGoogleType.red_dot);
+                    var marker = new CustomVehicleMarker(message, false).getMarkerWithPropoerties();
                     currentTimeMessagesOverlay.Markers.Add(marker);
                 }
             }
 
-            ConcurrentBag<ParsedMessage> messagesAtCurrentTimeRange = asterixData.getMessagesByRangeSecond(currentTime - 10, currentTime - 1);
+            ConcurrentBag<ParsedMessage> messagesAtCurrentTimeRange = asterixData.getMessagesByRangeSecond(currentTime - 20, currentTime - 1);
             foreach (ParsedMessage message in messagesAtCurrentTimeRange)
             {
                 if (message != null)
                 {
-                    double lat = message.getLat();
-                    double lon = message.getLon();
-
-                    // Create a marker for the message
-                    var marker = new GMarkerGoogle(new PointLatLng(lat, lon), GMarkerGoogleType.blue_dot);
+                    var marker = new CustomVehicleMarker(message, true).getMarkerWithPropoerties();
                     previousTimeMessagesOverlay.Markers.Add(marker);
                 }
             }
 
             // Update the map
             customMap.Overlays.Clear();
-            customMap.Overlays.Add(currentTimeMessagesOverlay);
             customMap.Overlays.Add(previousTimeMessagesOverlay);
+            customMap.Overlays.Add(currentTimeMessagesOverlay);
             customMap.Refresh();
 
             currentTime += timeStep;
 
             // Asynchronous delay to allow UI updates
-            await Task.Delay(100);
+            await Task.Delay(250);
         }
     }
-
 
     private void reset_grids()
     {

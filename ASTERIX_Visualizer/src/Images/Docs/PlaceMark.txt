@@ -1,0 +1,7 @@
+	<Placemark id="feat_3">
+		<name>Kirstenbosch1</name>
+		<styleUrl>#stylesel_00</styleUrl>
+		<Point id="geom_0">
+			<coordinates>18.432314,-33.988862,0</coordinates>
+		</Point>
+	</Placemark>

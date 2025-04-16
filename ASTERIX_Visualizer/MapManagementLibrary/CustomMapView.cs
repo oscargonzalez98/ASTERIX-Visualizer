@@ -63,7 +63,7 @@ namespace MapManagementLibrary
                 double lat = beacon.getCoordinates().getLatitude();
                 double lon = beacon.getCoordinates().getLongitude();
 
-                var marker = new CustomMarker(new PointLatLng(lat, lon), beacon.getCode());
+                var marker = new CustomBeaconMarker(new PointLatLng(lat, lon), beacon.getCode());
 
                 beaconsOverlay.Markers.Add(marker);
             }
@@ -135,8 +135,6 @@ namespace MapManagementLibrary
             this.airportZonesOverlay.IsVisibile = true; // Ensure the overlay is visible
             this.Overlays.Add(airportZonesOverlay); // Add the routes overlay to the map
         }
-
-
 
         // Helper method to convert System.Windows.Input.MouseButton to System.Windows.Forms.MouseButtons
         private System.Windows.Forms.MouseButtons ConvertMouseButton(MouseButton button)

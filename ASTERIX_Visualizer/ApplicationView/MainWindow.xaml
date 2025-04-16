@@ -10,25 +10,25 @@
      mc:Ignorable="d"
      Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="mainGrid">
-        <Grid x:Name="selectFilesGrid" d:IsHidden="True" Grid.RowSpan="2">
+        <Grid x:Name="selectFilesGrid" d:IsHidden="True" Grid.ColumnSpan="2" Height="367" VerticalAlignment="Top" Margin="0,-22,0,0">
             <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="293,79,151,79"/>
         </Grid>
-        <Grid x:Name="mapGridHost" Margin="179,28,22,26" d:IsHidden="True" Grid.RowSpan="2">
-            <WindowsFormsHost x:Name="formsHost" HorizontalAlignment="Left" Height="200" Width="300"  />
+        <Grid x:Name="mapGridHost" Margin="110,10,10,10" d:IsHidden="False">
+            <WindowsFormsHost x:Name="formsHost" Margin="2,10,0,10" />
         </Grid>
-        <Grid x:Name="tableGrid" HorizontalAlignment="Left" Height="186" VerticalAlignment="Top" Margin="320,8,0,0" d:IsHidden="True" Grid.Row="1">
-            <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-            <TextBox HorizontalAlignment="Left" Margin="0,41,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-            <TextBox HorizontalAlignment="Left" Margin="0,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-            <TextBox HorizontalAlignment="Left" Margin="0,168,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Grid x:Name="tableGrid" HorizontalAlignment="Left" Height="186" VerticalAlignment="Center" Margin="190,0,0,0" Grid.Column="1" Width="120" d:IsHidden="True">
+            <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" d:IsHidden="True"/>
+            <TextBox HorizontalAlignment="Left" Margin="0,41,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" d:IsHidden="True"/>
+            <TextBox HorizontalAlignment="Left" Margin="0,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" d:IsHidden="True"/>
+            <TextBox HorizontalAlignment="Left" Margin="0,168,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" d:IsHidden="True"/>
         </Grid>
-        <Grid x:Name="grid3" HorizontalAlignment="Left" VerticalAlignment="Top" d:IsHidden="True" Grid.RowSpan="2">
+        <Grid x:Name="grid3" HorizontalAlignment="Center" VerticalAlignment="Center" d:IsHidden="True" Grid.Column="1" Height="345" Width="720">
             <Image HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="508" Source="/wp7412461-aesthetic-and-cute-wallpapers.jpg" Margin="212,115,0,0"/>
         </Grid>
-        <Button x:Name="selectFilesButton" Content="Select Files" HorizontalAlignment="Left" Height="50" Margin="10,60,0,0" VerticalAlignment="Top" Width="81" Click="selectFilesButton_Click" Grid.RowSpan="2"/>
-        <Button x:Name="mapButton" Content="View Map" HorizontalAlignment="Left" Height="50" Margin="10,134,0,0" VerticalAlignment="Top" Width="81" Click="mapButton_Click"/>
-        <Button x:Name="tableButton" Content="Table" HorizontalAlignment="Left" Height="50" Margin="10,201,0,0" VerticalAlignment="Top" Width="81" Click="tableButtonButton_Click"/>
-        <Button x:Name="otherButton" HorizontalAlignment="Left" Height="50" Margin="10,288,0,0" VerticalAlignment="Top" Width="81" Click="otherButtonButton_Click" Content="Other Button"/>
-        <Rectangle HorizontalAlignment="Left" Height="414" Margin="102,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="688" Grid.RowSpan="2"/>
+        <Button x:Name="selectFilesButton" Content="Select Files" HorizontalAlignment="Left" Height="50" Margin="10,66,0,0" VerticalAlignment="Top" Width="81" Click="selectFilesButton_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="mapButton" Content="View Map" HorizontalAlignment="Left" Height="50" Margin="10,134,0,0" VerticalAlignment="Top" Width="81" Click="mapButton_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="tableButton" Content="Table" HorizontalAlignment="Left" Height="50" Margin="10,201,0,0" VerticalAlignment="Top" Width="81" Click="tableButtonButton_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="otherButton" HorizontalAlignment="Left" Height="50" Margin="10,270,0,0" VerticalAlignment="Top" Width="81" Click="otherButtonButton_Click" Content="Other Button" Grid.ColumnSpan="2"/>
+        <Rectangle Margin="110,10,10,10" Stroke="Black" Grid.Column="1" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

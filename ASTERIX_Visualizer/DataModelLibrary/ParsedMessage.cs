@@ -19,6 +19,8 @@ namespace DataModelLibrary
         double lon;
         double alt;
 
+        double heading;
+
         public ParsedMessage(IMessage message)
         {
             if (message.GetType() == typeof(CAT21)) {
@@ -32,6 +34,8 @@ namespace DataModelLibrary
                 this.lat = cat21.coordGeodesic.Lat * GeoUtils.RADS2DEGS;
                 this.lon = cat21.coordGeodesic.Lon * GeoUtils.RADS2DEGS;
                 this.alt = cat21.coordGeodesic.Height;
+
+                this.heading = cat21.MagneticHeading_degrees;
             }
 
             if(message.GetType() == typeof(CAT10))
@@ -51,6 +55,14 @@ namespace DataModelLibrary
                     this.lat = cat10.coordGeodesic.Lat * GeoUtils.RADS2DEGS;
                     this.lon = cat10.coordGeodesic.Lon * GeoUtils.RADS2DEGS;
                     this.alt = cat10.coordGeodesic.Height * GeoUtils.RADS2DEGS;
+
+                    if(cat10.TrackAngle == null)
+                    {
+                        this.heading = 0;
+                    } else
+                    {
+                        this.heading = cat10.TrackAngle;
+                    }
                 }
 
                 else if (SAC == 0 && SIC == 7)
@@ -63,6 +75,14 @@ namespace DataModelLibrary
                     this.lat = cat10.coordGeodesic.Lat * GeoUtils.RADS2DEGS;
                     this.lon = cat10.coordGeodesic.Lon * GeoUtils.RADS2DEGS;
                     this.alt = cat10.coordGeodesic.Height * GeoUtils.RADS2DEGS;
+
+                    if (cat10.Orientation == null)
+                    {
+                        this.heading = 0;
+                    } else
+                    {
+                        this.heading = cat10.Orientation;
+                    }
                 }
             }
         }
@@ -145,6 +165,16 @@ namespace DataModelLibrary
         public void setTrackNumber(double trackNumber)
         {
             this.TrackNumber = trackNumber;
+        }
+
+        public double getHeading()
+        {
+            return heading;
+        }
+
+        public void setHeading(double heading)
+        {
+            this.heading = heading;
         }
 
         public override string ToString()
