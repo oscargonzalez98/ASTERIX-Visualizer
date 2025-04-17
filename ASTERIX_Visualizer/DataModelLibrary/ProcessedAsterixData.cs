@@ -12,17 +12,19 @@ namespace DataModelLibrary
         List<ParsedMessage> listParsedMessages;
         ConcurrentDictionary<string, List<ParsedMessage>> icaoGroups;
         ConcurrentDictionary<double, List<ParsedMessage>> smrGroups;
-        ConcurrentBag<ParsedMessage> allSM;
+        ConcurrentBag<ParsedMessage> allSMR;
         ConcurrentBag<ParsedMessage> allADSB_MLAT;
-        ConcurrentDictionary<double, string> correlatedTracks;
+        ConcurrentDictionary<string, List<ParsedMessage>> correlatedTracks;
+        ConcurrentDictionary<string, List<ParsedMessage>> fusedAircraftTracks;
 
-        public ProcessedAsterixData(List<ParsedMessage> listParsedMessages, ConcurrentDictionary<string, List<ParsedMessage>> icaoGroups, ConcurrentDictionary<double, List<ParsedMessage>> smrGroups, ConcurrentBag<ParsedMessage> allSM, ConcurrentBag<ParsedMessage> allADSB_MLAT, ConcurrentDictionary<double, string> correlatedTracks) {
+        public ProcessedAsterixData(List<ParsedMessage> listParsedMessages, ConcurrentDictionary<string, List<ParsedMessage>> icaoGroups, ConcurrentDictionary<double, List<ParsedMessage>> smrGroups, ConcurrentBag<ParsedMessage> allSMR, ConcurrentBag<ParsedMessage> allADSB_MLAT, ConcurrentDictionary<string, List<ParsedMessage>> correlatedTracks, ConcurrentDictionary<string, List<ParsedMessage>> fusedAircraftTracks) {
             this.listParsedMessages = listParsedMessages;
             this.icaoGroups = icaoGroups;
             this.smrGroups = smrGroups;
-            this.allSM = allSM;
+            this.allSMR = allSMR;
             this.allADSB_MLAT = allADSB_MLAT;
             this.correlatedTracks = correlatedTracks;
+            this.fusedAircraftTracks = fusedAircraftTracks;
         }
 
         public ConcurrentBag<ParsedMessage> getMessagesBySecond(double s)
